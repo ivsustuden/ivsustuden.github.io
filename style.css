@@ -81,10 +81,3 @@
         font-family: montserrat; 
         src: url(fonts/Montserrat.ttf); 
        }
-       
-       ::-webkit-scrollbar-button {
-        background-image:url('');
-        background-repeat:no-repeat;
-        width:6px;
-        height:0px
-        }
