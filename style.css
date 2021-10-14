@@ -1,8 +1,9 @@
 /* СТРАНИЦА */
     body {
         background-color: #000000;overflow-x: hidden;box-sizing: border-box;
-        width: 1280px;
-        min-width: 800px;
+        max-width: 1920px;
+        min-width: 480px;
+        
     }
 
 /* ССЫЛКИ */
@@ -112,4 +113,18 @@
         width: 11px;
         }
 
-        
+        @media screen and (min-device-width: 1600px) {
+            div {width: 1500px;}
+           }
+           @media screen and (device-width: 1280px) {
+            div {width: 1100px;}
+           }
+           @media screen and (device-width: 1024px) {
+            div {width: 980px;}
+            
+           }
+
+           @media screen and (min-device-width: 4800px) {
+            div {width: 480px;}
+           }
+           
