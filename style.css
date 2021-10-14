@@ -1,6 +1,6 @@
 /* СТРАНИЦА */
     body {
-        background-color: #000000;overflow-x: hidden;box-sizing: border-box;
+        background-color: #000000;box-sizing: border-box;
         
         min-width: 480px;
         max-width: 1920px;
