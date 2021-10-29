@@ -192,13 +192,19 @@ i {
 	}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 	body {
-		zoom: 33%;
+		zoom: 28%;
 	}
 }
-        
+
 @media screen and (max-width: 736px) {
+	body {
+		zoom: 20%;
+	}
+}
+
+@media screen and (max-width: 500px) {
 	body {
 		zoom: 15%;
 	}
