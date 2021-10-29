@@ -168,12 +168,6 @@ i {
 	}
 }
 
-@media screen and (max-width: 1600px) {
-	body {
-		zoom: 70%;
-	}
-}
-
 @media screen and (max-width: 1440px) {
 	body {
 		zoom: 65%;
@@ -198,15 +192,15 @@ i {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	body {
-		zoom: 28%;
+		zoom: 33%;
 	}
 }
-
+        
 @media screen and (max-width: 736px) {
 	body {
-		zoom: 20%;
+		zoom: 25%;
 	}
 }
 
