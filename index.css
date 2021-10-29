@@ -197,14 +197,20 @@ i {
 		zoom: 28%;
 	}
 }
-
+        
 @media screen and (max-width: 736px) {
+	body {
+		zoom: 25%;
+	}
+}
+
+@media screen and (max-width: 500px) {
 	body {
 		zoom: 20%;
 	}
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
 	body {
 		zoom: 15%;
 	}
