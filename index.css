@@ -158,31 +158,49 @@ i {
 
 @media screen and (max-width: 1920px) {
 	body {
-		zoom: 67%;
+		zoom: 85%;
 	}
 }
     
 @media screen and (max-width: 1680px) {
-    body {
-		zoom: 67%;
+	body {
+		zoom: 70%;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	body {
+		zoom: 70%;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	body {
+		zoom: 65%;
 	}
 }
 
 @media screen and (max-width: 1280px) {
-    body {
-		zoom: 50%;
+	body {
+		zoom: 60%;
 	}
 }
-        
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1152px) {
 	body {
-		zoom: 33%;
+		zoom: 55%;
 	}
 }
-        
-@media screen and (max-width: 736px) {
+
+@media screen and (max-width: 1024px) {
 	body {
-		zoom: 25%;
+		zoom: 45%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		zoom: 28%;
 	}
 }
 
