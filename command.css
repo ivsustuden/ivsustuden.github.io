@@ -62,7 +62,7 @@ A:active {
 .fix-stroke1 {
 	paint-order: stroke fill;
 	color: #000000;
-	font-size: 18em;
+	font-size: 17em;
 	-webkit-text-stroke: 5px rgb(255, 255, 255);
 	font-family: montserrat;
 	font-weight: 800;
