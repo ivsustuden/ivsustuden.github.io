@@ -1,0 +1,285 @@
+/*/////////////////
+//// СТРАНИЦА ////
+///////////////*/
+
+body {
+	background-color: #000000;
+	box-sizing: border-box;
+	min-width: 480px;
+	max-width: 1920px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+/*/////////////////
+//// ЗАГРУЗКА ////
+///////////////*/
+
+#p_prldr{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	background: rgb(0, 0, 0);
+	z-index: 999;
+}
+
+/*///////////////
+//// ССЫЛКИ ////
+/////////////*/
+
+a { 
+	text-decoration: none; 
+	color: white;
+	background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+}
+
+A:visited {
+	color: white;
+}
+
+A:active {
+	color: white;
+}
+
+a:hover {
+    background-size: 100% 3px;
+}
+
+/*//////////////////////
+//// ОБВОДКА ШАПКИ ////
+////////////////////*/
+
+.fix-stroke {
+	paint-order: stroke fill;
+	color: #000000;
+	font-size: 12em;
+	-webkit-text-stroke: 5px rgb(255, 255, 255);
+	font-family: montserrat;
+	font-weight: 900;
+}
+
+/*///////////////////////////
+//// ОБВОДКА ЗАГОЛОВКОВ ////
+/////////////////////////*/
+
+.fix-stroke1 {
+	paint-order: stroke fill;
+	color: #000000;
+	font-size: 18em;
+	-webkit-text-stroke: 5px rgb(255, 255, 255);
+	font-family: montserrat;
+	font-weight: 800;
+}
+
+/*//////////////
+//// ТЕКСТ ////
+////////////*/
+
+p {
+	margin: 0; 
+	padding: 0;
+}
+
+.ft10 {
+	font-size:43px;
+	font-family:Montserrat;
+	color:#ffffff;
+}
+
+.ft11 {
+	font-size:103px;
+	font-family:Montserrat;
+	color:#ffffff;
+}
+
+.ft12 {
+	font-size:50px;
+	font-family:Montserrat;
+	color:rgb(255, 255, 255);
+}
+
+.ft13 {
+	font-size:178px;
+	font-family:Montserrat;
+	color:#ffffff;
+}
+
+.ft14 {
+	font-size:223px;
+	font-family:Montserrat;
+	color:#ffffff;
+}
+
+.ft15 {
+	font-size:193px;
+	font-family:Montserrat;
+	color:#ffffff;
+}
+
+.ft16 {
+	font-size:178px;
+	font-family:Montserrat; 
+	color:#000000;
+	text-shadow: rgb(255, 255, 255) 5px 5px 0, 
+				 rgb(255, 255, 255) -5px -5px 0, 
+				 rgb(255, 255, 255) -5px 5px 0, 
+				 rgb(255, 255, 255) 5px -5px 0;
+}
+
+/*////////////////
+//// СТРЕЛКА ////
+//////////////*/
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+i {
+	border: solid rgb(255, 255, 255);
+	border-width: 0 5px 5px 0;
+	display: inline-block;
+	padding: 50px;
+}
+
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+
+/*//////////////
+//// ШРИФТ ////
+////////////*/
+
+@font-face {
+	font-family: montserrat; 
+	src: url(fonts/Montserrat.ttf); 
+}
+
+/*/////////////////////
+//// АДАПТИВНОСТЬ ////
+///////////////////*/
+
+@media screen and (max-width: 1920px) {
+	body {
+		zoom: 85%;
+	}
+}
+    
+@media screen and (max-width: 1680px) {
+	body {
+		zoom: 70%;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	body {
+		zoom: 65%;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	body {
+		zoom: 60%;
+	}
+}
+
+@media screen and (max-width: 1152px) {
+	body {
+		zoom: 55%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	body {
+		zoom: 45%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		zoom: 28%;
+	}
+}
+        
+@media screen and (max-width: 736px) {
+	body {
+		zoom: 25%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		zoom: 20%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		zoom: 15%;
+	}
+}
+
+/*///////////////
+//// СКРОЛЛ ////
+/////////////*/
+
+::-webkit-scrollbar-button {
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:6px;
+	height:0px;
+}
+			
+::-webkit-scrollbar-track {
+	background-color:#000000;
+}
+			
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 5px;
+	border-radius: 1px;
+	background-color:#ffffff;
+}
+			
+::-webkit-resizer{
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:7px;
+	height:0px
+}
+			
+::-webkit-scrollbar{
+	width: 15px;
+}
+
+/*//////////////////
+//// ВЫДЕЛЕНИЕ ////
+////////////////*/
+
+::selection { 
+	color: #5e5e5e; 
+	text-shadow: none; 
+}
+
+::-moz-selection { 
+	color: #5e5e5e; 
+	text-shadow: none; 
+} 
+
+/*////////////////////
+//// ИЗОБРАЖЕНИЯ ////
+//////////////////*/
+
+img {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+	-webkit-touch-callout: none;
+  }
